@@ -35,3 +35,59 @@ namespace {
     }
 } // namespace
 
+// BUNGKUSAN ROS 2
+class UdpReceiverNode : public rclcpp::Node {
+public:
+    UdpReceiverNode() : Node("udp_receiver") {
+        publisher_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("gazebo_feedback", 10);
+        
+        sock_ = socket(AF_INET, SOCK_DGRAM, 0);
+        sockaddr_in addr{};
+        addr.sin_family = AF_INET;
+        addr.sin_port = htons(static_cast<uint16_t>(12152));
+        addr.sin_addr.s_addr = htonl(INADDR_ANY);
+        bind(sock_, reinterpret_cast<sockaddr *>(&addr), sizeof(addr));
+
+        // Agar tidak stuck saat dimatikan (sesuai modul panitia)
+        timeval tv{1, 0};
+        setsockopt(sock_, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
+
+        RCLCPP_INFO(this->get_logger(), "Listening UDP feedback on port 12152");
+        receive_thread_ = std::thread(&UdpReceiverNode::receive_loop, this);
+    }
+
+    ~UdpReceiverNode() {
+        close(sock_);
+        if (receive_thread_.joinable()) receive_thread_.join();
+    }
+
+private:
+    int sock_;
+    std::thread receive_thread_;
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr publisher_;
+
+    void receive_loop() {
+        uint8_t buf[64];
+        while (rclcpp::ok()) {
+            ssize_t n = recvfrom(sock_, buf, sizeof(buf), 0, nullptr, nullptr);
+            if (n < 0) continue;
+
+            Feedback fb;
+            // Memanggil fungsi parse_packet bawaan panitia
+            if (parse_packet(buf, static_cast<size_t>(n), fb)) {
+                RCLCPP_INFO(this->get_logger(), "enc L=%d R=%d vel x=%d y=%d", fb.left_ticks, fb.right_ticks, fb.vel_x_cms, fb.vel_y_cms);
+                
+                std_msgs::msg::Int32MultiArray msg;
+                msg.data = {fb.left_ticks, fb.right_ticks, fb.vel_x_cms, fb.vel_y_cms};
+                publisher_->publish(msg);
+            }
+        }
+    }
+};
+
+int main(int argc, char **argv) {
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<UdpReceiverNode>());
+    rclcpp::shutdown();
+    return 0;
+}
