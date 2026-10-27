@@ -3,10 +3,14 @@
 <package format="3">
   <name>master</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="produktif@todo.todo">produktif</maintainer>
+  <description>Control Node with Ackermann Kinematics</description>
+  <maintainer email="5026261119@student.its.ac.id">Arsyad Zhillan Gabriel</maintainer>
   <license>Apache-2.0</license>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>
