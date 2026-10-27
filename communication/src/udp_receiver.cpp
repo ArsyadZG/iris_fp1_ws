@@ -48,7 +48,7 @@ public:
         addr.sin_addr.s_addr = htonl(INADDR_ANY);
         bind(sock_, reinterpret_cast<sockaddr *>(&addr), sizeof(addr));
 
-        // Agar tidak stuck saat dimatikan (sesuai modul panitia)
+        // Agar tidak stuck saat dimatikan 
         timeval tv{1, 0};
         setsockopt(sock_, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
 
@@ -73,7 +73,7 @@ private:
             if (n < 0) continue;
 
             Feedback fb;
-            // Memanggil fungsi parse_packet bawaan panitia
+            // Memanggil Fungsi Parse
             if (parse_packet(buf, static_cast<size_t>(n), fb)) {
                 RCLCPP_INFO(this->get_logger(), "enc L=%d R=%d vel x=%d y=%d", fb.left_ticks, fb.right_ticks, fb.vel_x_cms, fb.vel_y_cms);
                 
