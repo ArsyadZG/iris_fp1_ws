@@ -1,4 +1,5 @@
 #include <rclcpp/rclcpp.hpp>
+#include <std_msgs/msg/int32_multi_array.hpp>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <unistd.h>
