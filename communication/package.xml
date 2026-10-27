@@ -3,12 +3,15 @@
 <package format="3">
   <name>communication</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="produktif@todo.todo">produktif</maintainer>
+  <description>UDP Receiver and Sender for FIRA Sim/description>
+  <maintainer email="5026261119@student.its.ac.id">Arsyad Zhillan Gabriel</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
+  
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+    
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
