@@ -17,9 +17,21 @@ find_package(geometry_msgs REQUIRED)
 add_executable(master_node src/master_node.cpp)
 ament_target_dependencies(master_node rclcpp std_msgs geometry_msgs)
 
+# Compile file C++ teleop_node
+add_executable(teleop_node src/teleop_node.cpp)
+ament_target_dependencies(teleop_node rclcpp std_msgs)
+
+
 # Program didaftarkan agar dikenali ROS 2
 install(TARGETS
   master_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Teleop_node ke dalam daftar install
+install(TARGETS
+  master_node
+  teleop_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
