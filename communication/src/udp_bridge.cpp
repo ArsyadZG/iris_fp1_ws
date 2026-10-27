@@ -40,9 +40,11 @@ public:
         local_addr.sin_addr.s_addr = INADDR_ANY;
         
         bind(sock_, (struct sockaddr*)&local_addr, sizeof(local_addr));
-
+        
         RCLCPP_INFO(this->get_logger(), "Listening UDP feedback on port 12152...");
-
+    // Inisialisasi Publisher ROS 2
+        // Nama topic: "gazebo_feedback", ukuran queue: 10
+        publisher_ = this->create_publisher<std_msgs::msg::Int32MultiArray>("gazebo_feedback", 10);
         // Jalankan thread terpisah untuk terus mendengarkan paket masuk
         receive_thread_ = std::thread(&UdpBridgeNode::receive_loop, this);
     }
@@ -57,7 +59,7 @@ public:
 private:
     int sock_;
     std::thread receive_thread_;
-
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr publisher_;
     // Fungsi untuk membaca integer little-endian dari buffer
     int32_t read_i32_le(const uint8_t *src) {
         uint32_t raw;
@@ -82,7 +84,9 @@ private:
                 RCLCPP_INFO(this->get_logger(), "Feedback -> L:%d R:%d vX:%d vY:%d", 
                             fb.left_ticks, fb.right_ticks, fb.vel_x_cms, fb.vel_y_cms);
                 
-                // Nanti tambahkan publisher ROS 2 di sini agar datanya bisa dibaca package 'master'
+                std_msgs::msg::Int32MultiArray msg;
+                msg.data = {fb.left_ticks, fb.right_ticks, fb.vel_x_cms, fb.vel_y_cms};
+                publisher_->publish(msg);
             }
         }
     }
