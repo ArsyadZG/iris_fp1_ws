@@ -43,7 +43,6 @@ private:
         // Hitung centroid (titik tengah piksel jalur)
         cv::Moments m = cv::moments(roi, true);
         geometry_msgs::msg::Point target_pt;
-        geometry_msgs::msg::Point target_pt;
 
         if (m.m00 > 0) {
             double cx = (m.m10 / m.m00);
