@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/master -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/master
+[0.156s] -- The C compiler identification is GNU 13.3.0
+[0.257s] -- The CXX compiler identification is GNU 13.3.0
+[0.280s] -- Detecting C compiler ABI info
+[0.403s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.559s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.793s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.876s] -- Configured cppcheck include dirs: 
+[0.876s] -- Configured cppcheck exclude dirs and/or files: 
+[0.877s] -- Added test 'lint_cmake' to check CMake code style
+[0.878s] -- Added test 'uncrustify' to check C / C++ code style
+[0.878s] -- Configured uncrustify additional arguments: 
+[0.878s] -- Added test 'xmllint' to check XML markup files
+[0.879s] -- Configuring done (0.9s)
+[0.881s] -- Generating done (0.0s)
+[0.883s] -- Build files have been written to: /home/produktif/iris_fp1_ws/build/master
+[0.886s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/master -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/master
+[0.888s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.933s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.947s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master
+[0.955s] -- Install configuration: ""
+[0.955s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.sh
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.dsv
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.bash
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.sh
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.zsh
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.dsv
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/package.dsv
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master
+[0.956s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake
+[0.957s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[0.957s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/package.xml
+[0.958s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master

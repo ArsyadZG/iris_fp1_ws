@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.214s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.247s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.256s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.351s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.475s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.576s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.590s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.661s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.661s] -- Configured cppcheck include dirs: 
+[0.661s] -- Configured cppcheck exclude dirs and/or files: 
+[0.661s] -- Added test 'lint_cmake' to check CMake code style
+[0.661s] -- Added test 'uncrustify' to check C / C++ code style
+[0.661s] -- Configured uncrustify additional arguments: 
+[0.662s] -- Added test 'xmllint' to check XML markup files
+[0.662s] -- Configuring done (0.6s)
+[0.669s] -- Generating done (0.0s)
+[0.672s] -- Build files have been written to: /home/produktif/iris_fp1_ws/build/master
+[0.714s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[7.603s] [100%] [32m[1mLinking CXX executable master_node[0m
+[7.879s] [100%] Built target master_node
+[7.887s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[7.897s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master
+[7.903s] -- Install configuration: ""
+[7.903s] -- Installing: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node
+[7.906s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/master/lib/master/master_node" to ""
+[7.906s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[7.906s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[7.906s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.sh
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.dsv
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.bash
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.sh
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.zsh
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.dsv
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.dsv
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[7.907s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.xml
+[7.908s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master

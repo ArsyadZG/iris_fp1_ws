@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/produktif/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/vision -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/vision
+[0.019s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.210s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.228s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.393s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.435s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.446s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.514s] -- Configured cppcheck include dirs: 
+[0.514s] -- Configured cppcheck exclude dirs and/or files: 
+[0.514s] -- Added test 'lint_cmake' to check CMake code style
+[0.514s] -- Added test 'uncrustify' to check C / C++ code style
+[0.514s] -- Configured uncrustify additional arguments: 
+[0.514s] -- Added test 'xmllint' to check XML markup files
+[0.515s] -- Configuring done (0.5s)
+[0.525s] -- Generating done (0.0s)
+[0.527s] -- Build files have been written to: /home/produktif/iris_fp1_ws/build/vision
+[0.534s] Invoked command in '/home/produktif/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/vision -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/vision
+[0.534s] Invoking command in '/home/produktif/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/vision -- -j20 -l20
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[7.776s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[8.265s] [100%] Built target vision_node
+[8.276s] Invoked command in '/home/produktif/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/vision -- -j20 -l20
+[8.288s] Invoking command in '/home/produktif/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/vision
+[8.297s] -- Install configuration: ""
+[8.298s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/lib/vision/vision_node
+[8.302s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/vision/lib/vision/vision_node" to ""
+[8.302s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[8.303s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[8.303s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[8.303s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[8.303s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/path.sh
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/path.dsv
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.bash
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.sh
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.zsh
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.dsv
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/package.dsv
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[8.304s] -- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/package.xml
+[8.305s] Invoked command in '/home/produktif/iris_fp1_ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/vision

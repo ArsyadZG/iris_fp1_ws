@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000676] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000710] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000732] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000757] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000776] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000794] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000811] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000828] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000844] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.000862] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.000880] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.000897] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000914] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.000930] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.000952] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.000970] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.000987] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001003] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001027] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001062] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001081] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001099] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.001117] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.001135] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.001153] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001172] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001191] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001209] (-) JobUnselected: {'identifier': 'master'}
+[0.001226] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001244] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001262] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001280] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001298] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001316] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001334] (-) JobUnselected: {'identifier': 'vision'}
+[0.001355] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.001381] (communication) JobStarted: {'identifier': 'communication'}
+[0.012616] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.013465] (communication) Command: {'cmd': ['/usr/bin/cmake', '/home/produktif/iris_fp1_ws/communication', '-DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/communication'], 'cwd': '/home/produktif/iris_fp1_ws/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3168', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3123,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3123', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/974efcb1_a043_427c_b834_eda97de8bb7a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099011] (-) TimerEvent: {}
+[0.179687] (communication) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199162] (-) TimerEvent: {}
+[0.297979] (communication) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299290] (-) TimerEvent: {}
+[0.325158] (communication) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399528] (-) TimerEvent: {}
+[0.456635] (communication) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.472683] (communication) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474151] (communication) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.475054] (communication) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.488117] (communication) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499665] (-) TimerEvent: {}
+[0.600014] (-) TimerEvent: {}
+[0.630688] (communication) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.645170] (communication) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.645862] (communication) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.646433] (communication) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.654279] (communication) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700292] (-) TimerEvent: {}
+[0.800802] (-) TimerEvent: {}
+[0.901347] (-) TimerEvent: {}
+[0.933838] (communication) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001631] (-) TimerEvent: {}
+[1.102144] (-) TimerEvent: {}
+[1.136966] (communication) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.202305] (-) TimerEvent: {}
+[1.219677] (communication) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.245837] (communication) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.278496] (communication) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302561] (-) TimerEvent: {}
+[1.314391] (communication) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402878] (-) TimerEvent: {}
+[1.471728] (communication) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.477987] (communication) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503123] (-) TimerEvent: {}
+[1.603686] (-) TimerEvent: {}
+[1.628621] (communication) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.661333] (communication) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.703897] (-) TimerEvent: {}
+[1.709185] (communication) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.804128] (-) TimerEvent: {}
+[1.882585] (communication) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.904391] (-) TimerEvent: {}
+[1.919420] (communication) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.004646] (-) TimerEvent: {}
+[2.105275] (-) TimerEvent: {}
+[2.129856] (communication) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.130538] (communication) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.130741] (communication) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.131846] (communication) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.133642] (communication) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.134016] (communication) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.134622] (communication) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.137042] (communication) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.161962] (communication) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.172111] (communication) StdoutLine: {'line': b'-- Build files have been written to: /home/produktif/iris_fp1_ws/build/communication\n'}
+[2.194981] (communication) CommandEnded: {'returncode': 0}
+[2.196359] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[2.196459] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/produktif/iris_fp1_ws/build/communication', '--', '-j20', '-l20'], 'cwd': '/home/produktif/iris_fp1_ws/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3168', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3123,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3123', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/974efcb1_a043_427c_b834_eda97de8bb7a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.205485] (-) TimerEvent: {}
+[2.297188] (communication) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o\x1b[0m\n'}
+[2.298189] (communication) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o\x1b[0m\n'}
+[2.305705] (-) TimerEvent: {}
+[2.406183] (-) TimerEvent: {}
+[2.506717] (-) TimerEvent: {}
+[2.607298] (-) TimerEvent: {}
+[2.707816] (-) TimerEvent: {}
+[2.808356] (-) TimerEvent: {}
+[2.908883] (-) TimerEvent: {}
+[3.009540] (-) TimerEvent: {}
+[3.110014] (-) TimerEvent: {}
+[3.210652] (-) TimerEvent: {}
+[3.311147] (-) TimerEvent: {}
+[3.411874] (-) TimerEvent: {}
+[3.512358] (-) TimerEvent: {}
+[3.612866] (-) TimerEvent: {}
+[3.713336] (-) TimerEvent: {}
+[3.813792] (-) TimerEvent: {}
+[3.914281] (-) TimerEvent: {}
+[4.014676] (-) TimerEvent: {}
+[4.115131] (-) TimerEvent: {}
+[4.215513] (-) TimerEvent: {}
+[4.315975] (-) TimerEvent: {}
+[4.416468] (-) TimerEvent: {}
+[4.516961] (-) TimerEvent: {}
+[4.617482] (-) TimerEvent: {}
+[4.718016] (-) TimerEvent: {}
+[4.818550] (-) TimerEvent: {}
+[4.919049] (-) TimerEvent: {}
+[5.019567] (-) TimerEvent: {}
+[5.120100] (-) TimerEvent: {}
+[5.220649] (-) TimerEvent: {}
+[5.321064] (-) TimerEvent: {}
+[5.421595] (-) TimerEvent: {}
+[5.522022] (-) TimerEvent: {}
+[5.622512] (-) TimerEvent: {}
+[5.722914] (-) TimerEvent: {}
+[5.823373] (-) TimerEvent: {}
+[5.923875] (-) TimerEvent: {}
+[6.024356] (-) TimerEvent: {}
+[6.124875] (-) TimerEvent: {}
+[6.225363] (-) TimerEvent: {}
+[6.325778] (-) TimerEvent: {}
+[6.426220] (-) TimerEvent: {}
+[6.526655] (-) TimerEvent: {}
+[6.627144] (-) TimerEvent: {}
+[6.727620] (-) TimerEvent: {}
+[6.828105] (-) TimerEvent: {}
+[6.928573] (-) TimerEvent: {}
+[7.028960] (-) TimerEvent: {}
+[7.129424] (-) TimerEvent: {}
+[7.229788] (-) TimerEvent: {}
+[7.330240] (-) TimerEvent: {}
+[7.430745] (-) TimerEvent: {}
+[7.531255] (-) TimerEvent: {}
+[7.631790] (-) TimerEvent: {}
+[7.732311] (-) TimerEvent: {}
+[7.832836] (-) TimerEvent: {}
+[7.933353] (-) TimerEvent: {}
+[8.033850] (-) TimerEvent: {}
+[8.134306] (-) TimerEvent: {}
+[8.234777] (-) TimerEvent: {}
+[8.335225] (-) TimerEvent: {}
+[8.435693] (-) TimerEvent: {}
+[8.536080] (-) TimerEvent: {}
+[8.549292] (communication) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable udp_receiver\x1b[0m\n'}
+[8.636321] (-) TimerEvent: {}
+[8.736787] (-) TimerEvent: {}
+[8.793554] (communication) StdoutLine: {'line': b'[ 75%] Built target udp_receiver\n'}
+[8.837012] (-) TimerEvent: {}
+[8.937443] (-) TimerEvent: {}
+[9.037936] (-) TimerEvent: {}
+[9.138281] (-) TimerEvent: {}
+[9.238544] (-) TimerEvent: {}
+[9.338892] (-) TimerEvent: {}
+[9.439249] (-) TimerEvent: {}
+[9.539582] (-) TimerEvent: {}
+[9.639935] (-) TimerEvent: {}
+[9.740291] (-) TimerEvent: {}
+[9.840675] (-) TimerEvent: {}
+[9.941015] (-) TimerEvent: {}
+[10.041343] (-) TimerEvent: {}
+[10.141605] (-) TimerEvent: {}
+[10.241937] (-) TimerEvent: {}
+[10.342294] (-) TimerEvent: {}
+[10.442634] (-) TimerEvent: {}
+[10.542970] (-) TimerEvent: {}
+[10.643310] (-) TimerEvent: {}
+[10.743760] (-) TimerEvent: {}
+[10.844091] (-) TimerEvent: {}
+[10.944442] (-) TimerEvent: {}
+[11.044798] (-) TimerEvent: {}
+[11.145096] (-) TimerEvent: {}
+[11.245510] (-) TimerEvent: {}
+[11.345836] (-) TimerEvent: {}
+[11.446160] (-) TimerEvent: {}
+[11.546539] (-) TimerEvent: {}
+[11.646968] (-) TimerEvent: {}
+[11.747318] (-) TimerEvent: {}
+[11.847660] (-) TimerEvent: {}
+[11.948003] (-) TimerEvent: {}
+[12.048366] (-) TimerEvent: {}
+[12.053281] (communication) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable udp_sender\x1b[0m\n'}
+[12.148552] (-) TimerEvent: {}
+[12.248894] (-) TimerEvent: {}
+[12.343995] (communication) StdoutLine: {'line': b'[100%] Built target udp_sender\n'}
+[12.348997] (-) TimerEvent: {}
+[12.357742] (communication) CommandEnded: {'returncode': 0}
+[12.358596] (communication) JobProgress: {'identifier': 'communication', 'progress': 'install'}
+[12.371351] (communication) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/produktif/iris_fp1_ws/build/communication'], 'cwd': '/home/produktif/iris_fp1_ws/build/communication', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3168', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3123,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3123', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/974efcb1_a043_427c_b834_eda97de8bb7a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/communication', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.384795] (communication) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.385121] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_sender\n'}
+[12.391539] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_sender" to ""\n'}
+[12.391799] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_receiver\n'}
+[12.392749] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_receiver" to ""\n'}
+[12.393100] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication\n'}
+[12.393287] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication\n'}
+[12.393382] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh\n'}
+[12.393573] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv\n'}
+[12.393701] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.sh\n'}
+[12.393788] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.dsv\n'}
+[12.393872] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.bash\n'}
+[12.393951] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.sh\n'}
+[12.394107] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.zsh\n'}
+[12.394216] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.dsv\n'}
+[12.394310] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/package.dsv\n'}
+[12.394381] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication\n'}
+[12.394469] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake\n'}
+[12.394537] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake\n'}
+[12.394602] (communication) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/package.xml\n'}
+[12.396227] (communication) CommandEnded: {'returncode': 0}
+[12.419249] (communication) JobEnded: {'identifier': 'communication', 'rc': 0}
+[12.419725] (-) EventReactorShutdown: {}

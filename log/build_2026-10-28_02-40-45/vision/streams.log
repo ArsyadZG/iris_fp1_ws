@@ -1,0 +1,37 @@
+[0.007s] Invoking command in '/home/produktif/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/vision -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/vision
+[0.021s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.229s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.296s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.297s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.394s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.435s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.447s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.513s] -- Configured cppcheck include dirs: 
+[0.513s] -- Configured cppcheck exclude dirs and/or files: 
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.513s] -- Added test 'uncrustify' to check C / C++ code style
+[0.513s] -- Configured uncrustify additional arguments: 
+[0.514s] -- Added test 'xmllint' to check XML markup files
+[0.514s] -- Configuring done (0.5s)
+[0.516s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.516s]   Cannot find source file:
+[0.516s] 
+[0.516s]     src/vision_node.cpp
+[0.516s] 
+[0.516s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.516s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.516s]   .f95 .f03 .hip .ispc
+[0.516s] 
+[0.516s] [0m
+[0.519s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.519s]   No SOURCES given to target: vision_node
+[0.519s] 
+[0.519s] [0m
+[0.519s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.525s] Invoked command in '/home/produktif/iris_fp1_ws/build/vision' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/vision -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/vision

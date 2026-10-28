@@ -1,0 +1,2 @@
+Invoking command in '/home/produktif/iris_fp1_ws/build/communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/communication
+Invoked command in '/home/produktif/iris_fp1_ws/build/communication' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/communication

@@ -1,0 +1,68 @@
+[0.015s] Invoking command in '/home/produktif/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/communication
+[0.179s] -- The C compiler identification is GNU 13.3.0
+[0.297s] -- The CXX compiler identification is GNU 13.3.0
+[0.324s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.471s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.473s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.487s] -- Detecting CXX compiler ABI info
+[0.630s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.645s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.653s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.136s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.219s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.245s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.471s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.477s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.660s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.708s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.882s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.918s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.129s] -- Configured cppcheck include dirs: 
+[2.129s] -- Configured cppcheck exclude dirs and/or files: 
+[2.131s] -- Added test 'lint_cmake' to check CMake code style
+[2.133s] -- Added test 'uncrustify' to check C / C++ code style
+[2.133s] -- Configured uncrustify additional arguments: 
+[2.134s] -- Added test 'xmllint' to check XML markup files
+[2.136s] -- Configuring done (2.1s)
+[2.161s] -- Generating done (0.0s)
+[2.171s] -- Build files have been written to: /home/produktif/iris_fp1_ws/build/communication
+[2.194s] Invoked command in '/home/produktif/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/produktif/iris_fp1_ws/communication -DCMAKE_INSTALL_PREFIX=/home/produktif/iris_fp1_ws/install/communication
+[2.196s] Invoking command in '/home/produktif/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/communication -- -j20 -l20
+[2.297s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_receiver.dir/src/udp_receiver.cpp.o[0m
+[2.297s] [ 50%] [32mBuilding CXX object CMakeFiles/udp_sender.dir/src/udp_sender.cpp.o[0m
+[8.548s] [ 75%] [32m[1mLinking CXX executable udp_receiver[0m
+[8.792s] [ 75%] Built target udp_receiver
+[12.052s] [100%] [32m[1mLinking CXX executable udp_sender[0m
+[12.343s] [100%] Built target udp_sender
+[12.357s] Invoked command in '/home/produktif/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/communication -- -j20 -l20
+[12.370s] Invoking command in '/home/produktif/iris_fp1_ws/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/communication
+[12.384s] -- Install configuration: ""
+[12.384s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_sender
+[12.390s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_sender" to ""
+[12.390s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_receiver
+[12.392s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_receiver" to ""
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+[12.392s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/package.dsv
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[12.393s] -- Installing: /home/produktif/iris_fp1_ws/install/communication/share/communication/package.xml
+[12.395s] Invoked command in '/home/produktif/iris_fp1_ws/build/communication' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/communication
