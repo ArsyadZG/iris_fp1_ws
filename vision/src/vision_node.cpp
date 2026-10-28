@@ -11,9 +11,9 @@ public:
         target_pub_ = this->create_publisher<geometry_msgs::msg::Point>("/vision/target_point", 10);
         // Subscriber ke topic kamera Gazebo
         image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
-            "/camera/image_raw", 10,
-            std::bind(&VisionNode::image_callback, this, std::placeholders::_1));
-        RCLCPP_INFO(this->get_logger(), "Vision Node aktif. Mendengarkan /camera/image_raw...");
+        "/catvehicle/camera_front/image_raw_front", 10,
+        std::bind(&VisionNode::image_callback, this, std::placeholders::_1));
+        RCLCPP_INFO(this->get_logger(), "Vision Node aktif. Mendengarkan /camera/image_raw_front...");
     }
 
 private:
