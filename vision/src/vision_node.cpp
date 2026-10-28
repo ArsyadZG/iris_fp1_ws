@@ -32,16 +32,17 @@ private:
         cv::Mat frame = cv_ptr->image;
         cv::Mat hsv, mask;
 
-        // Konversi BGR ke HSV untuk segmentasi warna jalur (misal: threshold warna marka)
+       // Konversi BGR ke HSV
         cv::cvtColor(frame, hsv, cv::COLOR_BGR2HSV);
-        // Range warna HSV (default diatur untuk mendeteksi objek/marka berwarna terang/kuning)
-        cv::inRange(hsv, cv::Scalar(15, 100, 100), cv::Scalar(35, 255, 255), mask);
-        // Ambil Region of Interest (ROI) separuh bawah gambar (area jalanan) <BEV>
+        // Revisi: Range warna HSV untuk mendeteksi warna PUTIH (Saturasi mendekati 0, Value tinggi)
+        cv::inRange(hsv, cv::Scalar(0, 0, 180), cv::Scalar(180, 40, 255), mask);
         int h = frame.rows;
         int w = frame.cols;
-        cv::Mat roi = mask(cv::Rect(0, h / 2, w, h / 2));
+        // Potong ROI menjadi garis tipis di depan mobil saja agar beloknya responsif 
+        cv::Mat roi = mask(cv::Rect(0, static_cast<int>(h * 0.6), w, static_cast<int>(h * 0.2)));
         // Hitung centroid (titik tengah piksel jalur)
         cv::Moments m = cv::moments(roi, true);
+        geometry_msgs::msg::Point target_pt;
         geometry_msgs::msg::Point target_pt;
 
         if (m.m00 > 0) {
