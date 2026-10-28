@@ -1,0 +1,17 @@
+/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_sender
+/home/produktif/iris_fp1_ws/install/communication/lib/communication/udp_receiver
+/home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+/home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+/home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.sh
+/home/produktif/iris_fp1_ws/install/communication/share/communication/environment/ament_prefix_path.dsv
+/home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.sh
+/home/produktif/iris_fp1_ws/install/communication/share/communication/environment/path.dsv
+/home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.bash
+/home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.sh
+/home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.zsh
+/home/produktif/iris_fp1_ws/install/communication/share/communication/local_setup.dsv
+/home/produktif/iris_fp1_ws/install/communication/share/communication/package.dsv
+/home/produktif/iris_fp1_ws/install/communication/share/ament_index/resource_index/packages/communication
+/home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig.cmake
+/home/produktif/iris_fp1_ws/install/communication/share/communication/cmake/communicationConfig-version.cmake
+/home/produktif/iris_fp1_ws/install/communication/share/communication/package.xml
