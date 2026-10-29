@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000567] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.000867] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000884] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.000893] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000902] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.000908] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000916] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.000938] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000945] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.000951] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000958] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.000964] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000970] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.000977] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000984] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.000989] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.000995] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.001002] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001008] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001015] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001022] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001028] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001035] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001042] (-) JobUnselected: {'identifier': 'communication'}
+[0.001048] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001055] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001061] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001068] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001074] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001081] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001087] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001094] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001100] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001107] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001114] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001125] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001132] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001138] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001145] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001151] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001157] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001164] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001170] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001176] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001183] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.001189] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.001195] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.001202] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.001208] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.001214] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.001220] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001227] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.001233] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001239] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.001246] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001252] (-) JobUnselected: {'identifier': 'lusb'}
+[0.001259] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001265] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.001272] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001278] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.001284] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001291] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.001572] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001599] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.001607] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001613] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.001620] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001626] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.001634] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.001644] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.001652] (master) JobStarted: {'identifier': 'master'}
+[0.005783] (vision) JobStarted: {'identifier': 'vision'}
+[0.009279] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.009746] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.010283] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/produktif/iris_fp1_ws/build/master', '--', '-j20', '-l20'], 'cwd': '/home/produktif/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3264', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3220,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3220', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/541bd91d_917a_4a69_8021_8ef90248d26a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.212', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.012869] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.025958] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.026121] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/produktif/iris_fp1_ws/build/vision', '--', '-j20', '-l20'], 'cwd': '/home/produktif/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3264', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3220,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3220', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/541bd91d_917a_4a69_8021_8ef90248d26a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.212', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.061827] (master) StdoutLine: {'line': b'[ 50%] Built target teleop_node\n'}
+[0.064792] (master) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o\x1b[0m\n'}
+[0.086284] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o\x1b[0m\n'}
+[0.099980] (-) TimerEvent: {}
+[0.200206] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.400639] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601161] (-) TimerEvent: {}
+[0.701410] (-) TimerEvent: {}
+[0.801655] (-) TimerEvent: {}
+[0.901965] (-) TimerEvent: {}
+[1.002213] (-) TimerEvent: {}
+[1.102467] (-) TimerEvent: {}
+[1.202734] (-) TimerEvent: {}
+[1.303016] (-) TimerEvent: {}
+[1.403263] (-) TimerEvent: {}
+[1.503503] (-) TimerEvent: {}
+[1.603779] (-) TimerEvent: {}
+[1.704107] (-) TimerEvent: {}
+[1.804338] (-) TimerEvent: {}
+[1.904582] (-) TimerEvent: {}
+[2.004807] (-) TimerEvent: {}
+[2.105060] (-) TimerEvent: {}
+[2.205321] (-) TimerEvent: {}
+[2.305553] (-) TimerEvent: {}
+[2.405785] (-) TimerEvent: {}
+[2.506017] (-) TimerEvent: {}
+[2.606257] (-) TimerEvent: {}
+[2.706542] (-) TimerEvent: {}
+[2.806819] (-) TimerEvent: {}
+[2.907079] (-) TimerEvent: {}
+[3.007323] (-) TimerEvent: {}
+[3.107553] (-) TimerEvent: {}
+[3.207913] (-) TimerEvent: {}
+[3.308202] (-) TimerEvent: {}
+[3.408481] (-) TimerEvent: {}
+[3.508792] (-) TimerEvent: {}
+[3.609104] (-) TimerEvent: {}
+[3.709391] (-) TimerEvent: {}
+[3.809686] (-) TimerEvent: {}
+[3.909968] (-) TimerEvent: {}
+[4.010188] (-) TimerEvent: {}
+[4.110483] (-) TimerEvent: {}
+[4.210778] (-) TimerEvent: {}
+[4.311036] (-) TimerEvent: {}
+[4.411371] (-) TimerEvent: {}
+[4.511666] (-) TimerEvent: {}
+[4.611974] (-) TimerEvent: {}
+[4.712318] (-) TimerEvent: {}
+[4.812650] (-) TimerEvent: {}
+[4.913074] (-) TimerEvent: {}
+[5.013375] (-) TimerEvent: {}
+[5.113653] (-) TimerEvent: {}
+[5.213956] (-) TimerEvent: {}
+[5.314315] (-) TimerEvent: {}
+[5.414606] (-) TimerEvent: {}
+[5.514851] (-) TimerEvent: {}
+[5.615150] (-) TimerEvent: {}
+[5.715406] (-) TimerEvent: {}
+[5.815753] (-) TimerEvent: {}
+[5.916079] (-) TimerEvent: {}
+[6.016381] (-) TimerEvent: {}
+[6.120049] (-) TimerEvent: {}
+[6.220365] (-) TimerEvent: {}
+[6.320618] (-) TimerEvent: {}
+[6.420853] (-) TimerEvent: {}
+[6.521068] (-) TimerEvent: {}
+[6.621271] (-) TimerEvent: {}
+[6.721519] (-) TimerEvent: {}
+[6.821782] (-) TimerEvent: {}
+[6.922085] (-) TimerEvent: {}
+[7.022377] (-) TimerEvent: {}
+[7.122632] (-) TimerEvent: {}
+[7.222866] (-) TimerEvent: {}
+[7.323145] (-) TimerEvent: {}
+[7.423365] (-) TimerEvent: {}
+[7.523616] (-) TimerEvent: {}
+[7.623914] (-) TimerEvent: {}
+[7.724130] (-) TimerEvent: {}
+[7.824380] (-) TimerEvent: {}
+[7.924601] (-) TimerEvent: {}
+[8.024838] (-) TimerEvent: {}
+[8.125072] (-) TimerEvent: {}
+[8.225274] (-) TimerEvent: {}
+[8.325504] (-) TimerEvent: {}
+[8.425721] (-) TimerEvent: {}
+[8.525951] (-) TimerEvent: {}
+[8.626167] (-) TimerEvent: {}
+[8.726385] (-) TimerEvent: {}
+[8.798409] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[8.826475] (-) TimerEvent: {}
+[8.926717] (-) TimerEvent: {}
+[9.027035] (-) TimerEvent: {}
+[9.127347] (-) TimerEvent: {}
+[9.227677] (-) TimerEvent: {}
+[9.313772] (vision) StdoutLine: {'line': b'[100%] Built target vision_node\n'}
+[9.322803] (vision) CommandEnded: {'returncode': 0}
+[9.323370] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[9.327793] (-) TimerEvent: {}
+[9.331254] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/produktif/iris_fp1_ws/build/vision'], 'cwd': '/home/produktif/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3264', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3220,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3220', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/541bd91d_917a_4a69_8021_8ef90248d26a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.212', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.337480] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.337752] (vision) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/vision/lib/vision/vision_node\n'}
+[9.340827] (vision) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/vision/lib/vision/vision_node" to ""\n'}
+[9.340996] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[9.341161] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[9.341247] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[9.341338] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[9.341427] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/path.sh\n'}
+[9.341503] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/environment/path.dsv\n'}
+[9.341577] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.bash\n'}
+[9.341652] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.sh\n'}
+[9.341725] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.zsh\n'}
+[9.341799] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/local_setup.dsv\n'}
+[9.341873] (vision) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/vision/share/vision/package.dsv\n'}
+[9.341948] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[9.342026] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[9.342102] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[9.342183] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/vision/share/vision/package.xml\n'}
+[9.342819] (vision) CommandEnded: {'returncode': 0}
+[9.357561] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[9.427928] (-) TimerEvent: {}
+[9.528214] (-) TimerEvent: {}
+[9.628467] (-) TimerEvent: {}
+[9.728793] (-) TimerEvent: {}
+[9.829108] (-) TimerEvent: {}
+[9.929393] (-) TimerEvent: {}
+[10.029752] (-) TimerEvent: {}
+[10.039675] (master) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable master_node\x1b[0m\n'}
+[10.129850] (-) TimerEvent: {}
+[10.230179] (-) TimerEvent: {}
+[10.330448] (-) TimerEvent: {}
+[10.409163] (master) StdoutLine: {'line': b'[100%] Built target master_node\n'}
+[10.420034] (master) CommandEnded: {'returncode': 0}
+[10.420929] (master) JobProgress: {'identifier': 'master', 'progress': 'install'}
+[10.421226] (master) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/produktif/iris_fp1_ws/build/master'], 'cwd': '/home/produktif/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3264', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3220,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3220', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/541bd91d_917a_4a69_8021_8ef90248d26a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.212', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.430542] (-) TimerEvent: {}
+[10.432802] (master) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.433028] (master) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node\n'}
+[10.439995] (master) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/master/lib/master/master_node" to ""\n'}
+[10.440177] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node\n'}
+[10.440407] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/teleop_node\n'}
+[10.440656] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master\n'}
+[10.440794] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master\n'}
+[10.441005] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh\n'}
+[10.441136] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv\n'}
+[10.441299] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.sh\n'}
+[10.441380] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.dsv\n'}
+[10.441428] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.bash\n'}
+[10.441471] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.sh\n'}
+[10.441515] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.zsh\n'}
+[10.441557] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.dsv\n'}
+[10.441597] (master) StdoutLine: {'line': b'-- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/package.dsv\n'}
+[10.441638] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master\n'}
+[10.441680] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake\n'}
+[10.441719] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake\n'}
+[10.441772] (master) StdoutLine: {'line': b'-- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.xml\n'}
+[10.442623] (master) CommandEnded: {'returncode': 0}
+[10.450921] (master) JobEnded: {'identifier': 'master', 'rc': 0}
+[10.451825] (-) EventReactorShutdown: {}

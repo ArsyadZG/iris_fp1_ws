@@ -1,0 +1,28 @@
+[0.005s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[0.061s] [ 75%] Built target teleop_node
+[8.420s] [100%] [32m[1mLinking CXX executable master_node[0m
+[8.719s] [100%] Built target master_node
+[8.730s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[8.731s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master
+[8.737s] -- Install configuration: ""
+[8.737s] -- Installing: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node
+[8.743s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/master/lib/master/master_node" to ""
+[8.743s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node
+[8.743s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/teleop_node
+[8.743s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.sh
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.dsv
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.bash
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.sh
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.zsh
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.dsv
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.dsv
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[8.744s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.xml
+[8.745s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master
