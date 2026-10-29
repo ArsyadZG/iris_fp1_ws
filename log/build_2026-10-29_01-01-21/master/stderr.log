@@ -1,0 +1,23 @@
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  123 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:7:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | class MasterNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                        [01;36m[K^[m[K
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid MasterNode::[01;32m[Kvision_callback[m[K(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:118:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  118 | int main(int argc, char **argv) [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  123 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:70:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   70 |     void vision_callback(const geometry_msgs::msg::Point::SharedPtr msg) [01;36m[K{[m[K
+      |                                                                          [01;36m[K^[m[K
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:[m[K At global scope:
+[01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  123 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[0.021s] Invoking command in '/home/produktif/iris_fp1_ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/vision -- -j20 -l20
+[0.167s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[20.150s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[21.386s] [100%] Built target vision_node

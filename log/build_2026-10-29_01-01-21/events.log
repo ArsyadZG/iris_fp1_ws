@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000900] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.001010] (-) JobUnselected: {'identifier': 'autonomous_vehicle_nosecurity'}
+[0.001043] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.001065] (-) JobUnselected: {'identifier': 'autonomous_vehicle_project'}
+[0.001086] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.001104] (-) JobUnselected: {'identifier': 'autonomous_vehicle_simple'}
+[0.001125] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001142] (-) JobUnselected: {'identifier': 'autonomous_vehicle_teb'}
+[0.001162] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.001185] (-) JobUnselected: {'identifier': 'avisengine_environment'}
+[0.001214] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.001241] (-) JobUnselected: {'identifier': 'avisengine_resources'}
+[0.001260] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.001283] (-) JobUnselected: {'identifier': 'can_sim_tc'}
+[0.001303] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.001320] (-) JobUnselected: {'identifier': 'catvehicle'}
+[0.001342] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.001364] (-) JobUnselected: {'identifier': 'catvehicle_gazebo'}
+[0.001382] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001399] (-) JobUnselected: {'identifier': 'catvehicle_gps_action'}
+[0.001415] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001432] (-) JobUnselected: {'identifier': 'catvehicle_tests'}
+[0.001449] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001466] (-) JobUnselected: {'identifier': 'cmdvel2gazebo'}
+[0.001483] (-) JobUnselected: {'identifier': 'communication'}
+[0.001499] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001516] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.001533] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001550] (-) JobUnselected: {'identifier': 'dataspeed_can'}
+[0.001567] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001584] (-) JobUnselected: {'identifier': 'dataspeed_can_msg_filters'}
+[0.001602] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001619] (-) JobUnselected: {'identifier': 'dataspeed_can_tools'}
+[0.001636] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001652] (-) JobUnselected: {'identifier': 'dataspeed_can_usb'}
+[0.001669] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001700] (-) JobUnselected: {'identifier': 'dbw_mkz'}
+[0.001715] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001733] (-) JobUnselected: {'identifier': 'dbw_mkz_can'}
+[0.001749] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001767] (-) JobUnselected: {'identifier': 'dbw_mkz_description'}
+[0.001793] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001810] (-) JobUnselected: {'identifier': 'dbw_mkz_gazebo'}
+[0.001840] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001966] (-) JobUnselected: {'identifier': 'dbw_mkz_gui'}
+[0.001985] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.002001] (-) JobUnselected: {'identifier': 'dbw_mkz_joystick_demo'}
+[0.002018] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.002035] (-) JobUnselected: {'identifier': 'dbw_mkz_msgs'}
+[0.002052] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.002069] (-) JobUnselected: {'identifier': 'drcsim_model_resources'}
+[0.002086] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.002103] (-) JobUnselected: {'identifier': 'example_pkg'}
+[0.002120] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.002140] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.002290] (-) JobUnselected: {'identifier': 'lusb'}
+[0.002470] (-) JobUnselected: {'identifier': 'lusb'}
+[0.002530] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.002573] (-) JobUnselected: {'identifier': 'obstaclestopper'}
+[0.002608] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.002643] (-) JobUnselected: {'identifier': 'rviz_satellite'}
+[0.002677] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.002710] (-) JobUnselected: {'identifier': 'sicktoolbox'}
+[0.002777] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.002817] (-) JobUnselected: {'identifier': 'sicktoolbox_wrapper'}
+[0.002882] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.002918] (-) JobUnselected: {'identifier': 'stepvel'}
+[0.002952] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.002991] (-) JobUnselected: {'identifier': 'teb_navigation_demo'}
+[0.003034] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.003085] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.003128] (master) JobStarted: {'identifier': 'master'}
+[0.016402] (vision) JobStarted: {'identifier': 'vision'}
+[0.024118] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.025507] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.026854] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/produktif/iris_fp1_ws/build/master', '--', '-j20', '-l20'], 'cwd': '/home/produktif/iris_fp1_ws/build/master', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3275', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3232,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36404c58_c872_4dc7_92fe_fcce5808ebf3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/master', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.033898] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.035533] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.036505] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/produktif/iris_fp1_ws/build/vision', '--', '-j20', '-l20'], 'cwd': '/home/produktif/iris_fp1_ws/build/vision', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'produktif', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/produktif', 'OLDPWD': '/home/produktif/iris_fp1_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3275', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'produktif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'produktif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/produktif-LOQ-15IRX9:@/tmp/.ICE-unix/3232,unix/produktif-LOQ-15IRX9:/tmp/.ICE-unix/3232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36404c58_c872_4dc7_92fe_fcce5808ebf3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/produktif/iris_fp1_ws/build/vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/produktif/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/produktif/iris_fp1_ws/install/vision:/home/produktif/iris_fp1_ws/install/master:/home/produktif/iris_fp1_ws/install/communication:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099147] (-) TimerEvent: {}
+[0.182328] (master) StdoutLine: {'line': b'[ 50%] Built target teleop_node\n'}
+[0.182872] (master) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o\x1b[0m\n'}
+[0.184081] (vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o\x1b[0m\n'}
+[0.199259] (-) TimerEvent: {}
+[0.299657] (-) TimerEvent: {}
+[0.400095] (-) TimerEvent: {}
+[0.500464] (-) TimerEvent: {}
+[0.600853] (-) TimerEvent: {}
+[0.701240] (-) TimerEvent: {}
+[0.801610] (-) TimerEvent: {}
+[0.902036] (-) TimerEvent: {}
+[1.002387] (-) TimerEvent: {}
+[1.102738] (-) TimerEvent: {}
+[1.203113] (-) TimerEvent: {}
+[1.303531] (-) TimerEvent: {}
+[1.403910] (-) TimerEvent: {}
+[1.504443] (-) TimerEvent: {}
+[1.604919] (-) TimerEvent: {}
+[1.705389] (-) TimerEvent: {}
+[1.805755] (-) TimerEvent: {}
+[1.906197] (-) TimerEvent: {}
+[2.006680] (-) TimerEvent: {}
+[2.107130] (-) TimerEvent: {}
+[2.207521] (-) TimerEvent: {}
+[2.307947] (-) TimerEvent: {}
+[2.408474] (-) TimerEvent: {}
+[2.508914] (-) TimerEvent: {}
+[2.609316] (-) TimerEvent: {}
+[2.709670] (-) TimerEvent: {}
+[2.810047] (-) TimerEvent: {}
+[2.910407] (-) TimerEvent: {}
+[3.011115] (-) TimerEvent: {}
+[3.111522] (-) TimerEvent: {}
+[3.211910] (-) TimerEvent: {}
+[3.312236] (-) TimerEvent: {}
+[3.412613] (-) TimerEvent: {}
+[3.512981] (-) TimerEvent: {}
+[3.613316] (-) TimerEvent: {}
+[3.713715] (-) TimerEvent: {}
+[3.814229] (-) TimerEvent: {}
+[3.914849] (-) TimerEvent: {}
+[4.015385] (-) TimerEvent: {}
+[4.116744] (-) TimerEvent: {}
+[4.217289] (-) TimerEvent: {}
+[4.317720] (-) TimerEvent: {}
+[4.418136] (-) TimerEvent: {}
+[4.443585] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.444105] (master) StderrLine: {'line': b'  123 | }\n'}
+[4.444396] (master) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.444645] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:7:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.444834] (master) StderrLine: {'line': b'    7 | class MasterNode : public rclcpp::Node \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.444978] (master) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.470495] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MasterNode::\x1b[01;32m\x1b[Kvision_callback\x1b[m\x1b[K(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.471102] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:118:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.471330] (master) StderrLine: {'line': b'  118 | int main(int argc, char **argv) \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[4.471503] (master) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.471664] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.471836] (master) StderrLine: {'line': b'  123 | }\n'}
+[4.472010] (master) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.472176] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:70:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.472423] (master) StderrLine: {'line': b'   70 |     void vision_callback(const geometry_msgs::msg::Point::SharedPtr msg) \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.472554] (master) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.472647] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.472754] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[4.472873] (master) StderrLine: {'line': b'  123 | }\n'}
+[4.472979] (master) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.518264] (-) TimerEvent: {}
+[4.618640] (-) TimerEvent: {}
+[4.718959] (-) TimerEvent: {}
+[4.819380] (-) TimerEvent: {}
+[4.919754] (-) TimerEvent: {}
+[5.020095] (-) TimerEvent: {}
+[5.120428] (-) TimerEvent: {}
+[5.220782] (-) TimerEvent: {}
+[5.321187] (-) TimerEvent: {}
+[5.421509] (-) TimerEvent: {}
+[5.521877] (-) TimerEvent: {}
+[5.622229] (-) TimerEvent: {}
+[5.722646] (-) TimerEvent: {}
+[5.822989] (-) TimerEvent: {}
+[5.923447] (-) TimerEvent: {}
+[6.023845] (-) TimerEvent: {}
+[6.124172] (-) TimerEvent: {}
+[6.224482] (-) TimerEvent: {}
+[6.324846] (-) TimerEvent: {}
+[6.425206] (-) TimerEvent: {}
+[6.525611] (-) TimerEvent: {}
+[6.625993] (-) TimerEvent: {}
+[6.726391] (-) TimerEvent: {}
+[6.826776] (-) TimerEvent: {}
+[6.927184] (-) TimerEvent: {}
+[7.027708] (-) TimerEvent: {}
+[7.128178] (-) TimerEvent: {}
+[7.228633] (-) TimerEvent: {}
+[7.329080] (-) TimerEvent: {}
+[7.429552] (-) TimerEvent: {}
+[7.529990] (-) TimerEvent: {}
+[7.630426] (-) TimerEvent: {}
+[7.730905] (-) TimerEvent: {}
+[7.831330] (-) TimerEvent: {}
+[7.931893] (-) TimerEvent: {}
+[8.032322] (-) TimerEvent: {}
+[8.132839] (-) TimerEvent: {}
+[8.233405] (-) TimerEvent: {}
+[8.333812] (-) TimerEvent: {}
+[8.434271] (-) TimerEvent: {}
+[8.534743] (-) TimerEvent: {}
+[8.635192] (-) TimerEvent: {}
+[8.735582] (-) TimerEvent: {}
+[8.836018] (-) TimerEvent: {}
+[8.936424] (-) TimerEvent: {}
+[9.036922] (-) TimerEvent: {}
+[9.137317] (-) TimerEvent: {}
+[9.145171] (master) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1\n'}
+[9.145671] (master) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2\n'}
+[9.146013] (master) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.149938] (master) CommandEnded: {'returncode': 2}
+[9.177558] (master) JobEnded: {'identifier': 'master', 'rc': 2}
+[9.237459] (-) TimerEvent: {}
+[9.337842] (-) TimerEvent: {}
+[9.438211] (-) TimerEvent: {}
+[9.538577] (-) TimerEvent: {}
+[9.638903] (-) TimerEvent: {}
+[9.739244] (-) TimerEvent: {}
+[9.839580] (-) TimerEvent: {}
+[9.939891] (-) TimerEvent: {}
+[10.040211] (-) TimerEvent: {}
+[10.140530] (-) TimerEvent: {}
+[10.240887] (-) TimerEvent: {}
+[10.341287] (-) TimerEvent: {}
+[10.441609] (-) TimerEvent: {}
+[10.542012] (-) TimerEvent: {}
+[10.642401] (-) TimerEvent: {}
+[10.742771] (-) TimerEvent: {}
+[10.843246] (-) TimerEvent: {}
+[10.943552] (-) TimerEvent: {}
+[11.043917] (-) TimerEvent: {}
+[11.144312] (-) TimerEvent: {}
+[11.244666] (-) TimerEvent: {}
+[11.345002] (-) TimerEvent: {}
+[11.445346] (-) TimerEvent: {}
+[11.545719] (-) TimerEvent: {}
+[11.646106] (-) TimerEvent: {}
+[11.746471] (-) TimerEvent: {}
+[11.846869] (-) TimerEvent: {}
+[11.947249] (-) TimerEvent: {}
+[12.047633] (-) TimerEvent: {}
+[12.148018] (-) TimerEvent: {}
+[12.248398] (-) TimerEvent: {}
+[12.348748] (-) TimerEvent: {}
+[12.449081] (-) TimerEvent: {}
+[12.549417] (-) TimerEvent: {}
+[12.649784] (-) TimerEvent: {}
+[12.750129] (-) TimerEvent: {}
+[12.850452] (-) TimerEvent: {}
+[12.950897] (-) TimerEvent: {}
+[13.051256] (-) TimerEvent: {}
+[13.151563] (-) TimerEvent: {}
+[13.251920] (-) TimerEvent: {}
+[13.352281] (-) TimerEvent: {}
+[13.452627] (-) TimerEvent: {}
+[13.552992] (-) TimerEvent: {}
+[13.653389] (-) TimerEvent: {}
+[13.753758] (-) TimerEvent: {}
+[13.854105] (-) TimerEvent: {}
+[13.954435] (-) TimerEvent: {}
+[14.054841] (-) TimerEvent: {}
+[14.155213] (-) TimerEvent: {}
+[14.255582] (-) TimerEvent: {}
+[14.355923] (-) TimerEvent: {}
+[14.456290] (-) TimerEvent: {}
+[14.556639] (-) TimerEvent: {}
+[14.657002] (-) TimerEvent: {}
+[14.757381] (-) TimerEvent: {}
+[14.857755] (-) TimerEvent: {}
+[14.958090] (-) TimerEvent: {}
+[15.058536] (-) TimerEvent: {}
+[15.158934] (-) TimerEvent: {}
+[15.259347] (-) TimerEvent: {}
+[15.359681] (-) TimerEvent: {}
+[15.460046] (-) TimerEvent: {}
+[15.560482] (-) TimerEvent: {}
+[15.660912] (-) TimerEvent: {}
+[15.761338] (-) TimerEvent: {}
+[15.861911] (-) TimerEvent: {}
+[15.962394] (-) TimerEvent: {}
+[16.062746] (-) TimerEvent: {}
+[16.163206] (-) TimerEvent: {}
+[16.263660] (-) TimerEvent: {}
+[16.364223] (-) TimerEvent: {}
+[16.464605] (-) TimerEvent: {}
+[16.565061] (-) TimerEvent: {}
+[16.665513] (-) TimerEvent: {}
+[16.765978] (-) TimerEvent: {}
+[16.866431] (-) TimerEvent: {}
+[16.966886] (-) TimerEvent: {}
+[17.067325] (-) TimerEvent: {}
+[17.167692] (-) TimerEvent: {}
+[17.268222] (-) TimerEvent: {}
+[17.368774] (-) TimerEvent: {}
+[17.469135] (-) TimerEvent: {}
+[17.569557] (-) TimerEvent: {}
+[17.669935] (-) TimerEvent: {}
+[17.770367] (-) TimerEvent: {}
+[17.870744] (-) TimerEvent: {}
+[17.971125] (-) TimerEvent: {}
+[18.071503] (-) TimerEvent: {}
+[18.171888] (-) TimerEvent: {}
+[18.272287] (-) TimerEvent: {}
+[18.372727] (-) TimerEvent: {}
+[18.473143] (-) TimerEvent: {}
+[18.573605] (-) TimerEvent: {}
+[18.674021] (-) TimerEvent: {}
+[18.774436] (-) TimerEvent: {}
+[18.874774] (-) TimerEvent: {}
+[18.975100] (-) TimerEvent: {}
+[19.075492] (-) TimerEvent: {}
+[19.175875] (-) TimerEvent: {}
+[19.276205] (-) TimerEvent: {}
+[19.376564] (-) TimerEvent: {}
+[19.476920] (-) TimerEvent: {}
+[19.577321] (-) TimerEvent: {}
+[19.677692] (-) TimerEvent: {}
+[19.778138] (-) TimerEvent: {}
+[19.878604] (-) TimerEvent: {}
+[19.978959] (-) TimerEvent: {}
+[20.079287] (-) TimerEvent: {}
+[20.167118] (vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[20.179405] (-) TimerEvent: {}
+[20.279745] (-) TimerEvent: {}
+[20.380071] (-) TimerEvent: {}
+[20.480439] (-) TimerEvent: {}
+[20.580912] (-) TimerEvent: {}
+[20.681262] (-) TimerEvent: {}
+[20.781585] (-) TimerEvent: {}
+[20.881924] (-) TimerEvent: {}
+[20.982331] (-) TimerEvent: {}
+[21.082757] (-) TimerEvent: {}
+[21.183115] (-) TimerEvent: {}
+[21.283482] (-) TimerEvent: {}
+[21.383843] (-) TimerEvent: {}
+[21.403075] (vision) StdoutLine: {'line': b'[100%] Built target vision_node\n'}
+[21.425755] (vision) JobEnded: {'identifier': 'vision', 'rc': 'SIGINT'}
+[21.436691] (-) EventReactorShutdown: {}

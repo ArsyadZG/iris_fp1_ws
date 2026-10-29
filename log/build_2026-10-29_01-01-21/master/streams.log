@@ -1,0 +1,27 @@
+[0.027s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.179s] [ 50%] Built target teleop_node
+[0.180s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[4.441s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.441s]   123 | }
+[4.441s]       |  [01;31m[K^[m[K
+[4.442s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:7:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.442s]     7 | class MasterNode : public rclcpp::Node [01;36m[K{[m[K
+[4.442s]       |                                        [01;36m[K^[m[K
+[4.468s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid MasterNode::[01;32m[Kvision_callback[m[K(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.468s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:118:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[4.468s]   118 | int main(int argc, char **argv) [01;31m[K{[m[K
+[4.468s]       |                                 [01;31m[K^[m[K
+[4.469s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.469s]   123 | }
+[4.469s]       |  [01;31m[K^[m[K
+[4.469s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:70:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.469s]    70 |     void vision_callback(const geometry_msgs::msg::Point::SharedPtr msg) [01;36m[K{[m[K
+[4.469s]       |                                                                          [01;36m[K^[m[K
+[4.470s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:[m[K At global scope:
+[4.470s] [01m[K/home/produktif/iris_fp1_ws/master/src/master_node.cpp:123:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[4.470s]   123 | }
+[4.470s]       |  [01;31m[K^[m[K
+[9.142s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[9.143s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/master_node.dir/all] Error 2
+[9.143s] gmake: *** [Makefile:146: all] Error 2
+[9.147s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20

@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[0.059s] [ 50%] Built target teleop_node
+[0.063s] [ 75%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[9.751s] [100%] [32m[1mLinking CXX executable master_node[0m
+[10.123s] [100%] Built target master_node
+[10.133s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/produktif/iris_fp1_ws/build/master -- -j20 -l20
+[10.142s] Invoking command in '/home/produktif/iris_fp1_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master
+[10.148s] -- Install configuration: ""
+[10.149s] -- Installing: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node
+[10.154s] -- Set non-toolchain portion of runtime path of "/home/produktif/iris_fp1_ws/install/master/lib/master/master_node" to ""
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/master_node
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/lib/master/teleop_node
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.sh
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.sh
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/environment/path.dsv
+[10.154s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.bash
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.sh
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.zsh
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/local_setup.dsv
+[10.155s] -- Installing: /home/produktif/iris_fp1_ws/install/master/share/master/package.dsv
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/ament_index/resource_index/packages/master
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig.cmake
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[10.155s] -- Up-to-date: /home/produktif/iris_fp1_ws/install/master/share/master/package.xml
+[10.156s] Invoked command in '/home/produktif/iris_fp1_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/produktif/iris_fp1_ws/build/master

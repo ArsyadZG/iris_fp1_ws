@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[01m[K/home/produktif/iris_fp1_ws/vision/src/vision_node.cpp:[m[K In member function ‘[01m[Kvoid VisionNode::[01;32m[Kimage_callback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/produktif/iris_fp1_ws/vision/src/vision_node.cpp:46:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Point target_pt[m[K’
+   46 |         geometry_msgs::msg::Point [01;31m[Ktarget_pt[m[K;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/produktif/iris_fp1_ws/vision/src/vision_node.cpp:45:35:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point target_pt[m[K’ previously declared here
+   45 |         geometry_msgs::msg::Point [01;36m[Ktarget_pt[m[K;
+      |                                   [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
