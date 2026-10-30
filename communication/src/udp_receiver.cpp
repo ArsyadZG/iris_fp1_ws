@@ -45,7 +45,7 @@ public:
         sockaddr_in addr{};
         addr.sin_family = AF_INET;
         addr.sin_port = htons(static_cast<uint16_t>(12152));
-        addr.sin_addr.s_addr = htonl(INADDR_ANY);
+        inet_pton(AF_INET, "10.144.174.111", &addr.sin_addr);
         bind(sock_, reinterpret_cast<sockaddr *>(&addr), sizeof(addr));
 
         // Agar tidak stuck saat dimatikan 
